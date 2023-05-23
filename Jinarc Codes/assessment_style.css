@@ -39,7 +39,7 @@ header{
     z-index: 5;
 }
 .jinarc_logo{
-    max-width: 25rem;  
+    max-width: 25rem;
     margin-top: 1rem;
 }
 .jinarc_logo img{
@@ -57,6 +57,7 @@ nav ul li{
     text-transform: uppercase;
     margin: 10px;
 }
+
 nav ul li a{
     padding: 20px;
     font-size: 1.6rem;
@@ -86,7 +87,7 @@ nav ul li:hover{
     min-height: 25rem;
     font-size: 1.6rem;
     font-family: AvenirRoman;
-    
+
 }
 .input-data > div{
     padding: 0.9rem 0;
@@ -246,7 +247,7 @@ nav ul li:hover{
 }
 .start_btn{
     position: relative;
-    text-align: center; 
+    text-align: center;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -334,7 +335,7 @@ nav ul li:hover{
     justify-content: center;
 }
 .option-container .option{
-    
+
     color: rgb(255, 255, 255);
     line-height: 2rem;
     width: 100%;
@@ -361,13 +362,13 @@ nav ul li:hover{
 .option-container .circle:hover{
     background-color: #06264f;
     color: white;
-   
+
     transition:  0.9s;
 }
 .option-container .option:hover{
-  
+
     color: white;
-   
+
     transition:  0.9s;
 }
 
@@ -407,12 +408,12 @@ nav ul li:hover{
 .result-box .answers-indicator div.correct{
     background-color: #06264f;
     color: white;
-    
+
 }
 .result-box .answers-indicator div.wrong{
     background-color: red;
     color: white;
-    
+
 }
 .result-box .answers-indicator div{
     z-index: 2;
@@ -535,7 +536,7 @@ nav ul li:hover{
 .failed-buttons p:hover{
     background: #06264f;
     color: white;
-    transition: 0.6s; 
+    transition: 0.6s;
 }
 .retake{
     background: rgb(230, 160, 50);
@@ -674,3 +675,4 @@ nav ul li:hover{
 
 
 /*Results Certified Jinarc Prescriber*/
+

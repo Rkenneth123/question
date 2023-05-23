@@ -14,10 +14,10 @@
             <div class="jinarc_logo">
             <img src="image/Jinarc web logo_blue.png">
             </div>
-            
-            <nav>   
-                <ul aria-disabled="true">
-                    <li><a href="index.html">home</a></li>
+
+            <nav id="nvbr">
+                <ul>
+                    <li><a disabled href="index.html">home</a></li>
                     <li><a href="prescriber.html">prescriber</a></li>
                     <li class="active"><a href="patient.html">patient</a></li>
                     <li><a href="resources.html">resources</a></li>
@@ -41,26 +41,26 @@
                 autocomplete="off" placeholder=" " >
                 <label for="hos_affi" class="label_hos">Hospital Affiliation</label>
             </div>
-            
+
             <div class="form_specialty">
                 <input type="text" name="specialty" class="input_specialty"
                 autocomplete="off" placeholder=" " >
                 <label for="specialty" class="label_specialty">Specialty
                 </label>
             </div>
-           
+
             <div class="form_email">
                 <input type="text" name="email" class="input_email"
                 autocomplete="off" placeholder=" " >
-                <label for="email" class="label_email">Email</label>   
+                <label for="email" class="label_email">Email</label>
             </div>
-     
+
             <div class="form_prc">
                 <input type="text" name="prc" class="input_prc"
                 autocomplete="off" placeholder=" " >
-                <label for="prc" class="label_prc">PRC License</label>             
+                <label for="prc" class="label_prc">PRC License</label>
             </div>
-       
+
 
         <div class="submit_btn">
          <button type="submit" class="submit_assess" name="submit" onclick="goToHome()">Submit</button>
@@ -71,7 +71,7 @@
 
         <!--Start Assessment-->
         <div class="home-box custom-box hide">
-            <p>In order for you to become a certified prescriber of 
+            <p>In order for you to become a certified prescriber of
             Jinarc, you need to successfully complete the Prescriber
             Knowledge Assessment and correctly answer all 8 questions.
             </p>
@@ -82,33 +82,33 @@
         </div>
 
         <!--Assessment-->
-        
+
             <div class="quiz-box custom-box hide">
-                
+
                 <div class="question-number">
-                   
+
                 </div>
 
                <div class="question-text">
-                
+
                 </div>
 
                 <div class="option-container">
                     .sss
                 </div>
-                
+
                 <section class="res-nxt">
-                    
+
                 <div class="reset-btn">
                     <button type="button" class="res-btn" onclick="clickReset()">Reset</button>
                 </div>
                 <div class="next-question-btn" onclick="next()">
                     <button type="button" class="nxt-btn">Next</button>
                 </div>
-              
+
                 </section>
             </div>
-            
+
         <!--Assessment-->
 
         <!--Assessment Result-->
@@ -151,31 +151,33 @@
                     <div class="certified-img">
                         <img src="image/Certified stamp.png">
                     </div>
-                    
+
                     <div class="congratulations-container">
                         <div class="confetti-gif">
                             <img src="image/CONFETTI.gif">
                         </div>
                     <p class="congratulations">CONGRATULATIONS!</p>
-                    <p class="certified-prescriber">You are now a 
+                    <p class="certified-prescriber">You are now a
                         certified Jinarc® prescriber.</p>
                     </div>
                 </section>
 
                 <section class="signature">
+                    <form class="signature-pad-form" action="#" method="POST">
                     <canvas height="50" width="267.8" class="signature-pad">
                     </canvas>
                     <div class="signature-button">
                         <p class="sign">PLEASE SIGN HERE TO COMPLETE THE ASSESSMENT</p>
                         <button type="reset" class="rst-btn" onclick="clickReset()">Reset</button>
-                        
+
                         <button type="submit" class="done-btn">Done</button>
                     </div>
-               
+                </form>
+
                 </section>
             </div>
         <!--Assessment Passed Result-->
-    
+
 
 <script src="question.js"></script>
 <script src="app.js"></script>
