@@ -326,7 +326,7 @@ nav ul li:hover{
     min-height: 27rem;
 
 }
-.circle{
+.circle {
     background-color: #d5a351;
     color:white;
     width: 3%;
@@ -334,6 +334,7 @@ nav ul li:hover{
     display: flex;
     justify-content: center;
 }
+
 .option-container .option{
 
     color: rgb(255, 255, 255);
@@ -359,17 +360,21 @@ nav ul li:hover{
     background: #06264f;
     color: white;
 }
-.option-container .circle:hover{
+.option-container .option.circle:hover{
     background-color: #06264f;
+    color: white;
+    transition:  0.9s;
+}
+.option-container .option:hover{
+  
     color: white;
 
     transition:  0.9s;
 }
-.option-container .option:hover{
-
+.option-container .circle:hover{
+    background-color: #06264f;
     color: white;
 
-    transition:  0.9s;
 }
 
 .choices{
@@ -378,14 +383,15 @@ nav ul li:hover{
     color:black;
     font-size: 15px;
 }
+
 .quiz-box .option-container .option.correct::before{
     content: '';
     position: absolute;
     left: 0;
     top: 0;
-    height: 100px;
+    height: 100%;
     border-radius: 50%;
-    width: 3%;
+    width: 3.2%;
     background-color:#06264fd0;
     color:white;
     z-index: 1;
@@ -400,7 +406,7 @@ nav ul li:hover{
     top: 0;
     height: 100%;
     border-radius: 50%;
-    width: 3%;
+    width: 3.2%;
     background-color:#06264fd0;
     z-index: 1;
     animation: slideInLeft 0.5s ease forwards;

@@ -28,10 +28,10 @@ const quiz = [
     {
         q: 'At 18th month of continuous JINARC® treatment, your ADPKD patient with no history of elevation of liver enzymes (AST, ALT, TBL) has returned for his/her monthly consultation, which is the appropriate course of action?',
         options: [
-            '<div class="circle">A</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Order the 18th month liver function test, evaluate results of LFT, then proceed to write prescription of JINARC®. Advice patient to her next LFT on the 21st month.</div> ',
-            '<div class="circle">B</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Order the 18th month liver function test, evaluate results of LFT, then write prescription of JINARC®Advice patient to return next month for her LFT.</div> ',
-            '<div class="circle">C</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Advice patient to return for her liver function test on the 21st month, then write prescription of JINARC®good for 3 months.</div> ',
-            '<div class="circle">D</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Advice patient to return after two weeks for her liver function test, then write prescription of JINARC®good for 2 weeks</div> '],
+            '<div class="circle">A</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices" style="font-size:12px"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Order the 18th month liver function test, evaluate results of LFT, then proceed to write prescription of JINARC®. Advice patient to her next LFT on the 21st month.</div> ',
+            '<div class="circle">B</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices" style="font-size:12px" > &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Order the 18th month liver function test, evaluate results of LFT, then write prescription of JINARC®Advice patient to return next month for her LFT.</div> ',
+            '<div class="circle">C</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices" style="font-size:12px"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Advice patient to return for her liver function test on the 21st month, then write prescription of JINARC®good for 3 months.</div> ',
+            '<div class="circle">D</div> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div class="choices" style="font-size:12px"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Advice patient to return after two weeks for her liver function test, then write prescription of JINARC®good for 2 weeks</div> '],
 
         answer: 0
     },
