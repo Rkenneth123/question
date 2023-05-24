@@ -16,8 +16,8 @@ const assessContainer = document.querySelector(".assess-container");
 // canva signature
 const canvas = document.querySelector('canvas');
 const form = document.querySelector('.signature-pad-form');
-const clearButton = document.querySelector('.rst-btn');
-const ctx = canvas.getContext('2d');
+const clearButton = document.querySelector('.clear-button');
+const ctx = canvas.getContext("2d");
 let writingMode = false;
 
 form.addEventListener('submit', (event) => {
@@ -26,7 +26,7 @@ form.addEventListener('submit', (event) => {
     const imageURL = canvas.toDataURL();
     const image = document.createElement('img');
     image.src = imageURL;
-    image.heigth = canvas.height;
+    image.height = canvas.height;
     image.width = canvas.width;
     image.style.display = 'block';
     form.appendChild(image);
@@ -46,7 +46,7 @@ const getTargePosition = (event) => {
     positionX = event.clientX - event.target.getBoundingClientRect().x;
     positionY = event.clientY - event.target.getBoundingClientRect().y;
 
-    retrun[positionX, positionY];
+    return [positionX, positionY];
 }
 
 const handlePointerMove = (event) => {
@@ -74,7 +74,7 @@ ctx.lineJoin = ctx.lineCap = 'round';
 
 canvas.addEventListener('pointerdown', handlePointerDown, { passive: true })
 canvas.addEventListener('pointerup', handlePointerUp, { passive: true })
-canvas.addEventListener('pointermover', handlePointerMove, { passive: true })
+canvas.addEventListener('pointermove', handlePointerMove, { passive: true })
 
 // end of canvas signature
 
